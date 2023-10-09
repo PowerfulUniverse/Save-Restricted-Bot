@@ -39,3 +39,6 @@ https://t.me/c/xxxx/101 - 120
 ```
 
 note: space in between doesn't matter
+
+Press the below button for deploying to Heroku
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PowerfulUniverse/Save-Restricted-Bot)
