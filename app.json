@@ -5,17 +5,22 @@
   "logo": "https://node-js-sample-1234567890ab.herokuapp.com/node.png",
   "keywords": ["content", "restricted", "saver"]
 },
-"env": {
+"env":{
+  {
     "BOT_TOKEN": {
-      "description": "Get from Bot Father."
+      "description": "Get from Bot Father.",
+      "value": ""
     },
   "API_ID": {
-      "description": "Get API ID from my.telegram.org"
+      "description": "Get API ID from my.telegram.org",
+  "value": ""
   },
   "API_HASH": {
-      "description": "Get API HASH from my.telegram.org"
+      "description": "Get API HASH from my.telegram.org",
+  "value": ""
   },
   "STRING": {
-      "description": "Get STRING from replit.com"
+      "description": "Get STRING from replit.com",
+    "value": ""
   }
 }
