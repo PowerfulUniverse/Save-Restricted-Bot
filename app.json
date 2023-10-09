@@ -1,4 +1,11 @@
 {
+  "name": "Save Restricted Bot",
+  "description": "This is content Restriction save bot",
+  "repository": "https://github.com/PowerfulUniverse/Save-Restricted-Bot",
+  "logo": "https://node-js-sample-1234567890ab.herokuapp.com/node.png",
+  "keywords": ["content", "restricted", "saver"]
+},
+{
     "TOKEN": "",
     "ID": "",
     "HASH": "",
