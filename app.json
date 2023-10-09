@@ -5,9 +5,17 @@
   "logo": "https://node-js-sample-1234567890ab.herokuapp.com/node.png",
   "keywords": ["content", "restricted", "saver"]
 },
-{
-    "TOKEN": "",
-    "ID": "",
-    "HASH": "",
-    "STRING": null
+"env": {
+    "BOT_TOKEN": {
+      "description": "Get from Bot Father."
+    },
+  "API_ID": {
+      "description": "Get API ID from my.telegram.org"
+  },
+  "API_HASH": {
+      "description": "Get API HASH from my.telegram.org"
+  },
+  "STRING": {
+      "description": "Get STRING from replit.com"
+  }
 }
