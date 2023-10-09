@@ -1,11 +1,16 @@
 {
   "name": "Save Restricted Bot",
-  "description": "This is content Restriction save bot",
+  "description": "This is content Restriction save bot.",
+  "keywords": [
+    "content", 
+    "restricted", 
+    "saver"],
+   "success_url": "https://t.me/mega_downloader_robot",
+  "website": "https://github.com/PowerfulUniverse/Save-Restricted-Bot",
+  "logo": "https://telegra.ph/file/a438489c44d17d108f7b5.jpg",
   "repository": "https://github.com/PowerfulUniverse/Save-Restricted-Bot",
-  "logo": "https://node-js-sample-1234567890ab.herokuapp.com/node.png",
-  "keywords": ["content", "restricted", "saver"],
-},
-"env":{
+  "stack": "container",
+"env": {
     "BOT_TOKEN": {
       "description": "Get from Bot Father.",
       "value": ""
@@ -21,7 +26,8 @@
   "STRING": {
       "description": "Get STRING from replit.com",
     "value": ""
-  },
+  }
+},
    "addons": [
   ],
   "buildpacks": [{
