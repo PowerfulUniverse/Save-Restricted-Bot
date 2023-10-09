@@ -5,8 +5,7 @@
   "logo": "https://node-js-sample-1234567890ab.herokuapp.com/node.png",
   "keywords": ["content", "restricted", "saver"],
 },
-"env":
-  {
+"env":{
     "BOT_TOKEN": {
       "description": "Get from Bot Father.",
       "value": ""
@@ -22,5 +21,18 @@
   "STRING": {
       "description": "Get STRING from replit.com",
     "value": ""
+  },
+   "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
   }
 }
