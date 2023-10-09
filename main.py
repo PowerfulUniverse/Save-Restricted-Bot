@@ -8,7 +8,7 @@ import os
 import threading
 import json
 
-with open('config.json', 'r') as f: DATA = json.load(f)
+with open('app.json', 'r') as f: DATA = json.load(f)
 def getenv(var): return os.environ.get(var) or DATA.get(var, None)
 
 bot_token = getenv("TOKEN") 
